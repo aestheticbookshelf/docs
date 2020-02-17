@@ -1,0 +1,19 @@
+
+{
+    "source": {
+        "includePattern": ".+\\.js$",
+        "include": ["."],                    
+        "exclude": ["node_modules"]          
+    },
+    "recurseDepth": 10,                      
+    "opts": {
+        "destination": "./aestheticbookshelf.github.io/",            
+        "recurse": true                      
+    },
+    "templates": {
+        "default": {
+            "layoutFile": "layout.tmpl"
+        }
+    }
+}
+
