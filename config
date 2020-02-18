@@ -16,5 +16,5 @@
 	email = aestheticbookshelf@gmail.com
 	[credential "https://github.com/aestheticbookshelf/docs.git"]
 		username = aestheticbookshelf
-    [credential "https://gitlab.com/aestheticbookshelf/docs.git"]
+	[credential "https://gitlab.com/aestheticbookshelf/docs.git"]
 		username = aestheticbookshelf
