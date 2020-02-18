@@ -2,13 +2,14 @@
 {
     "source": {
         "includePattern": ".+\\.js$",
+        "excludePattern": "bundle.js",
         "include": ["packages/smartdom"],                    
-        "exclude": ["node_modules"]          
+        "exclude": ["node_modules", "test"]          
     },
     "recurseDepth": 10,                      
     "opts": {
         "destination": "./aestheticbookshelf.github.io/docs/smartdom",            
-        "recurse": true                      
+        "recurse": true
     },
     "templates": {
         "default": {
